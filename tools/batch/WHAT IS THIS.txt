@@ -1,0 +1,3 @@
+These are batch scripts that let you execute some queries on the database.
+
+You need to start MySQL before using them!

@@ -1,0 +1,13 @@
+This folder contains sql files that can be executed on the database.
+In order to do that, you need to use a MySQL client such as HeidiSQL.
+
+Anticheat - Creates tables needed by the anticheat.
+Base - Creates the base structure of the databases, with no data.
+Custom - These queries add custom content to the game.
+Migrations - Contains database updates that are required if you wipe the database and replace it with a clean one. Server won't start if any are missing.
+
+CLEAN_WORLD_DB_08_06_2018.7z - This is a clean world database without any updates. You must apply migrations before using it.
+
+FULL_WORLD_DB_09_08_2018.sql - The full world database with all the latest updates. I've archived it for your convenience.
+
+DEFAULT_CHARACTERS.7z - A backup of the default characters that come with the repack.
